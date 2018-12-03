@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DELTA UNIVERSITY| Best education seatination</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="wel">
+		<img src="img/bg2.jpg"/>
+		<div id="contents">
+	<div id="header">
+		<a id="logo" href="index.html">DELTA UNIVERSITY</a>
+		
+		<ul id="men">
+			<li><a href="apply.php">Apply now!</a></li>
+			<li>About Delta</li>
+			<li>Contact Us</li>
+			<li>Help?</li>
+		</ul>
+
+	</div>
+	<div id="welcome">
+		<h1>WELCOME TO DELTA UNIVERSITY</h1>
+		<p>
+			This is your premium destination for your education needs. Located at a serene and calm learning environment. We offer best courses accredited By the coommission for university education(CUE). Our lecturers are the best in the region.<br/><br/>
+
+			Intakes are currently ongoing .Press link below to Apply Now!
+		</p>
+
+	</div>
+	<div id="register"><a id="regnow" href="apply.php"><button>Register Now !</button></a></div>
+	<div id="footer">
+		<div id="contact">
+			<h2>CONTACTS</h2>
+			<ul>
+				<li>+254720500556</li>
+				<li>denixKaranjah@gmail.com</li>
+				<li>dxdenito.github.io</li>
+				<li>facebook</li>
+			</ul>
+
+		</div>
+		<div id="newsletter">
+				<H2>Subscribe to our news letter</H2>
+				<form id="Subscribe">
+					<?php if (isset($error)) {
+						?>
+						<small style="color: #aa0000;"><?php echo $error; ?></small><br><br>
+						<?php
+					} ?>
+					<input type="email" name="email" id="email" id="email" placeholder="name@your-email.com"><br>
+					<input type="submit" name="submit" value="Subscribe" id="btn">
+					
+				</form>
+				<p>
+					Your email address is confidential and will only be used to alert you of a new post. We value the security and privacy of your information.
+				</p>
+
+		</div>
+		<div id="links">
+			<h2>LINKS</h2>
+				<ul>
+						<li>Ministry of Education</li>
+						<li>Helb.co.ke</li>
+						<li>Ministry of ICT</li>
+						<li>Denis Technologies</li>
+					</ul>
+
+		</div>
+		
+	</div>
+	<div id="copyright">
+		Developed by <a href="dxdenito.github.io">Denis technologies</a> &copy;2018
+	</div>
+</div>
+</body>
+</html>
